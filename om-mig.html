@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid Layout & Filmsektion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-about">
+
+  
+  <div class="site-container">
+
+    
+    <header class="main-header">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="semantic-elements.html">Hem</a></li>
+          <li><a href="Hjälp.html">Hjälp</a></li>
+          <li><a href="https://gemini.google.com/">Visit</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main class="main-content">
+      <article>
+        <h2>Skillnaden mellan CSS Grid och Flexbox</h2>
+        <p>
+          Skillnaden mellan Flexbox och CSS Grid handlar om riktning. Flexbox lägger saker på en enda linje åt gången, medan Grid bygger ett rutnät med både rader och kolumner. Man sätter reglerna för behållaren så att innehållet hamnar rätt automatiskt.
+          För att läsa mer om webbutveckling kan du besöka <a href="https://developer.mozilla.org" class="inline-link" target="_blank">MDN Web Docs</a> för fördjupande guider.
+        </p>
+        <p>
+          Föräldraelementet (parent) sätter strukturen och reglerna, vilket gör att barnen (children) automatiskt hamnar på rätt plats i rutfältet.
+        </p>
+      </article>
+    </main>
+
+    
+    <aside class="sidebar">
+      <h3>Sidomeny</h3>
+      <ul>
+        <li><a href="https://cssgridgarden.com/" class="inline-link" target="_blank">Grid Garden</a></li>
+        <li><a href="https://www.w3schools.com/css/css_grid.asp" class="inline-link" target="_blank">W3Schools Grid</a></li>
+      </ul>
+    </aside>
+
+    
+    <section class="movie-section" id="filmer">
+      <h2 class="movie-title-span">Filmer jag verkligen vill se</h2>
+
+      <article class="movie-card">
+        <h3>Inception</h3>
+        <p>En fantastisk sci-fi thriller om drömmar i drömmar av Christopher Nolan.</p>
+        <div class="video-container">
+          <iframe src="https://www.youtube-nocookie.com/embed/YoHD9XEInc0" title="Inception Trailer" allowfullscreen></iframe>
+        </div>
+      </article>
+
+      <article class="movie-card">
+        <h3>Interstellar</h3>
+        <p>Ett visuelt mästerverk om en resa genom ett maskhål för att rädda mänskligheten även skriven av christopher nolan.</p>
+        <div class="video-container">
+          <iframe src="https://www.youtube-nocookie.com/embed/zSWdZVtXT7E" title="Interstellar Trailer" allowfullscreen></iframe>
+        </div>
+      </article>
+
+      <article class="movie-card">
+        <h3>(The Dark Knight) som jag har sett</h3>
+        <p>En av historiens bästa superhjältefilmer med Heath Ledgers ikoniska Joker.</p>
+        <div class="video-container">
+          <iframe src="https://www.youtube-nocookie.com/embed/EXeTwQWrcwY" title="The Dark Knight Trailer" allowfullscreen></iframe>
+        </div>
+      </article>
+    </section>
+</div>
+
+</body>
+</html>
